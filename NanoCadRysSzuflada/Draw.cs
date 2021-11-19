@@ -37,14 +37,14 @@ namespace NanoCadRysSzuflada
 
                 foreach (var dimension in rotatedDimensions)
                 {
+                    dimension.Layer = "Wymiary_korpusu";
                     acBlkTblRec.AppendEntity(dimension);
-
 
                     acTrans.AddNewlyCreatedDBObject(dimension, true);
                 }
                 foreach (var actext in acMTexts)
                 {
-                    actext.Layer = "Wypis elementow";
+                    actext.Layer = "Opisy";
                     acBlkTblRec.AppendEntity(actext);
                     acTrans.AddNewlyCreatedDBObject(actext, true);
                 }

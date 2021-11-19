@@ -16,9 +16,9 @@ namespace NanoCadRysSzuflada
             if (dataSzuflada.Spod)
             {
                 acMText.Contents = "Elementy szuflady\n" +
-                                   dataSzuflada.Numer + "sz  " + (dataSzuflada.Dlugosc) + "  " + (dataSzuflada.Wysokosc - 40) + "  " + dataSzuflada.Ilosc * 2 + "\n" +
-                                   (dataSzuflada.Numer + 1) + "sz  " + (dataSzuflada.Szerokosc - (dataSzuflada.Grubosc * 2)) + "  " + (dataSzuflada.Wysokosc - 40 - 12 - dataSzuflada.Grubosc) + "  " + dataSzuflada.Ilosc * 2 + "\n" +
-                                   "S" + ((dataSzuflada.Numer + 1) / 2) + "  " + (dataSzuflada.Dlugosc) + "  " + (dataSzuflada.Szerokosc - (dataSzuflada.Grubosc * 2)) + "  " + dataSzuflada.Ilosc;
+                                   dataSzuflada.Numer + "  " + (dataSzuflada.Dlugosc) + "  " + (dataSzuflada.Wysokosc - 40) + "  " + dataSzuflada.Ilosc * 2 + "\n" +
+                                   (dataSzuflada.Numer + 1) + "  " + (dataSzuflada.Szerokosc - (dataSzuflada.Grubosc * 2)) + "  " + (dataSzuflada.Wysokosc - 40 - 12 - dataSzuflada.Grubosc) + "  " + dataSzuflada.Ilosc * 2 + "\n" +
+                                   "S" + ((dataSzuflada.Numer + 1) / 2) + "  " + (dataSzuflada.Szerokosc - (dataSzuflada.Grubosc * 2)) + "  " + (dataSzuflada.Dlugosc) + "  " + dataSzuflada.Ilosc;
             }
             else
             {
@@ -41,9 +41,9 @@ namespace NanoCadRysSzuflada
             if (dataSzuflada.Spod)
             {
                 acMText.Contents = "Elementy szuflady\n" +
-                                   dataSzuflada.Numer + "sz  " + (dataSzuflada.Dlugosc) + "  " + (dataSzuflada.Wysokosc - 30) + "  " + dataSzuflada.Ilosc * 2 + "\n" +
-                                   (dataSzuflada.Numer + 1) + "sz  " + (dataSzuflada.Szerokosc - (dataSzuflada.Grubosc * 2)) + "  " + (dataSzuflada.Wysokosc - 30 - dataSzuflada.Grubosc) + "  " + dataSzuflada.Ilosc * 2 + "\n" +
-                                   "S" + ((dataSzuflada.Numer + 1) / 2) + "  " + (dataSzuflada.Dlugosc) + "  " + (dataSzuflada.Szerokosc - (dataSzuflada.Grubosc * 2)) + "  " + dataSzuflada.Ilosc;
+                                   dataSzuflada.Numer + "  " + (dataSzuflada.Dlugosc) + "  " + (dataSzuflada.Wysokosc - 30) + "  " + dataSzuflada.Ilosc * 2 + "\n" +
+                                   (dataSzuflada.Numer + 1) + "  " + (dataSzuflada.Szerokosc - (dataSzuflada.Grubosc * 2)) + "  " + (dataSzuflada.Wysokosc - 30 - dataSzuflada.Grubosc) + "  " + dataSzuflada.Ilosc * 2 + "\n" +
+                                   "S" + ((dataSzuflada.Numer + 1) / 2) + "  " + (dataSzuflada.Szerokosc - (dataSzuflada.Grubosc * 2)) + "  " + (dataSzuflada.Dlugosc) + "  " + dataSzuflada.Ilosc;
             }
             else
             {

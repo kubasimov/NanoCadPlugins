@@ -31,7 +31,7 @@ namespace NanoCadRysSzuflada
             if (dataSzuflada.Tandem)
             {
                 dataSzuflada.Szerokosc = dataSzuflada.Szerokosc - 49 + (2*dataSzuflada.Grubosc);
-                dataSzuflada.Dlugosc = dataSzuflada.Dlugosc - 10;
+                dataSzuflada.Dlugosc -= 10;
 
                 //list rectangle
                 var polylines = MyRectangle.TandemRectangle(dataSzuflada);

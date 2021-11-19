@@ -220,6 +220,7 @@
             // radioSpod
             // 
             this.radioSpod.AutoSize = true;
+            this.radioSpod.Enabled = false;
             this.radioSpod.Location = new System.Drawing.Point(7, 20);
             this.radioSpod.Name = "radioSpod";
             this.radioSpod.Size = new System.Drawing.Size(47, 17);
